@@ -369,6 +369,26 @@
   .why h3 { font-size:1rem; margin-bottom:.4rem; }
   .why p { color:var(--muted); font-size:.87rem; }
 
+  /* ---------- Reviews ---------- */
+  .reviews-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1.2rem; }
+  .review-card {
+    background:var(--card); border:1px solid #f0e9dc; border-radius:var(--radius);
+    padding:1.6rem 1.5rem; box-shadow:0 2px 10px rgba(33,29,26,.04);
+    display:flex; flex-direction:column; gap:.85rem;
+    transition:transform .3s cubic-bezier(.22,.61,.36,1), box-shadow .3s;
+  }
+  .review-card:hover { transform:translateY(-3px); box-shadow:var(--shadow); }
+  .review-stars { color:var(--gold); font-size:.85rem; letter-spacing:.1em; }
+  .review-quote { color:var(--ink); font-size:.93rem; line-height:1.6; flex-grow:1; }
+  .review-attr { display:flex; align-items:center; justify-content:space-between; gap:.6rem; flex-wrap:wrap; }
+  .review-who { font-weight:700; font-size:.85rem; }
+  .review-who span { font-weight:500; color:var(--muted); }
+  .review-tour { font-size:.72rem; color:var(--muted); }
+  .review-badge {
+    display:inline-flex; align-items:center; gap:.35rem; font-size:.7rem; font-weight:600;
+    color:var(--green); background:#eef3ea; padding:.25rem .6rem; border-radius:999px; margin-top:.1rem;
+  }
+
   /* ---------- Final CTA ---------- */
   .final {
     position:relative; overflow:hidden;
@@ -622,6 +642,51 @@
   </div>
 </section>
 
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">What guests say</span>
+      <h2>Real reviews, straight from GetYourGuide.</h2>
+      <p>No cherry-picked marketing copy — these are verified guest reviews, lightly trimmed for length.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-quote">"An incredible tour through the magic of Manga in Japan! Hide patiently walked with me at my speed, wisely and kindly answered all my questions, and helped me understand so much about the art, the history and the neighborhood that inspired it all."</p>
+        <div class="review-attr">
+          <div>
+            <div class="review-who">Kirsten <span>· Switzerland</span></div>
+            <div class="review-tour">Birthplace of Manga &amp; Anime Guided Museum Walk</div>
+          </div>
+        </div>
+        <span class="review-badge">✓ Verified on GetYourGuide</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-quote">"Hide was an excellent guide who kept us very entertained and took an interest in our lives. He was very well informed and time flew by — would recommend to friends who are also interested in Manga."</p>
+        <div class="review-attr">
+          <div>
+            <div class="review-who">Michael <span>· United Kingdom</span></div>
+            <div class="review-tour">Birthplace of Manga &amp; Anime Guided Museum Walk</div>
+          </div>
+        </div>
+        <span class="review-badge">✓ Verified on GetYourGuide</span>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-quote">"The colors of the leaves were beautiful and it was a very relaxing walk. The buckwheat noodles were delicious and I enjoyed the company of the guide."</p>
+        <div class="review-attr">
+          <div>
+            <div class="review-who">Mark <span>· United States</span></div>
+            <div class="review-tour">Hidden Shakujii Park Walk with Samurai Ruins &amp; Udon</div>
+          </div>
+        </div>
+        <span class="review-badge">✓ Verified on GetYourGuide</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="guide">
   <div class="wrap">
     <div class="guide-in">
@@ -761,7 +826,7 @@
     },{rootMargin:'0px'}).observe(footerEl);
   }
 
-  var els=document.querySelectorAll('.sec-head, .featured, .card, .guide-in, .why, .final');
+  var els=document.querySelectorAll('.sec-head, .featured, .card, .guide-in, .why, .review-card, .final');
   els.forEach(function(el){el.classList.add('rv');});
   if(!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('in');});return;}
   var io=new IntersectionObserver(function(entries){
@@ -769,7 +834,7 @@
       if(e.isIntersecting){
         var el=e.target, sibs=el.parentElement?el.parentElement.children:[];
         var idx=Array.prototype.indexOf.call(sibs,el);
-        el.style.transitionDelay=(el.classList.contains('card')||el.classList.contains('why'))?(Math.max(idx,0)*70)+'ms':'0ms';
+        el.style.transitionDelay=(el.classList.contains('card')||el.classList.contains('why')||el.classList.contains('review-card'))?(Math.max(idx,0)*70)+'ms':'0ms';
         el.classList.add('in'); io.unobserve(el);
       }
     });
