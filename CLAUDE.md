@@ -4,6 +4,9 @@ Added 2026-11-01 after the owner's review: posts read like ads, were thin, and t
 
 Model post: `blog/totoro-forest-day-trip-from-tokyo-without-a-car.html`. Match its structure, length and amount of promotion.
 
+## 0. Pick the topic from the story bank
+- Read `content/story-bank.md` first and follow its "How to use" steps: add new note posts, pick the next `ready` theme, mark it used, and warn the owner in the push notification when fewer than 4 themes are `ready`.
+
 ## 1. Build the post around real stories from note
 - Before writing, read 2-3 of the owner's past note posts on the topic (https://note.com/hide3399). In a Chrome tab on note.com:
   - list: `fetch('/api/v2/creators/hide3399/contents?kind=note&page=N')`
