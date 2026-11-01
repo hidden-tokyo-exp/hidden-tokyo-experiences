@@ -25,6 +25,7 @@ Model post: `blog/totoro-forest-day-trip-from-tokyo-without-a-car.html`. Match i
 ## 4. Substack and Medium copies
 - Paste the LP body HTML (absolute `https://hkidachi3399.github.io/hidden-tokyo-experiences/...` image URLs) into the editor with a synthetic `ClipboardEvent('paste')`; both Substack and Medium re-host the images.
 - Substack: before scheduling, check that "Social preview" in the publish panel shows the post's first photo, not the logo or subscribe card.
+- Substack, already-scheduled draft: after pasting, the old body may remain below the new signature; delete everything after the first signature line. The publish panel cannot be opened without un-scheduling, so set the thumbnail with `PUT /api/v1/drafts/<id>` `{cover_image: <first image src from draft_body>}` and confirm `postSchedules` is unchanged.
 
 ## Do not
 - The owner's real name, employer or day job. "licensed" (use "insured" if needed).
