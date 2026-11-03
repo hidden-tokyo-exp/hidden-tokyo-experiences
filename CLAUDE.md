@@ -30,5 +30,10 @@ Model post: `blog/totoro-forest-day-trip-from-tokyo-without-a-car.html`. Match i
 - Substack: before scheduling, check that "Social preview" in the publish panel shows the post's first photo, not the logo or subscribe card.
 - Substack, already-scheduled draft: after pasting, the old body may remain below the new signature; delete everything after the first signature line. The publish panel cannot be opened without un-scheduling, so set the thumbnail with `PUT /api/v1/drafts/<id>` `{cover_image: <first image src from draft_body>}` and confirm `postSchedules` is unchanged.
 
+## 5. Author box (guide illustration)
+- `scripts/publish_scheduled.py` adds the "Written by Hide" box with `hide-avatar.svg` automatically when a post is published (via `scripts/author_box.py`). Do not add it by hand.
+- When pasting a post into Substack or Medium, leave out the `<!--author-box-->` aside: those sites show their own author line, and they may not re-host the SVG.
+- For profile photos on outside sites, use `hide-avatar.png` (400px) or `hide-avatar-800.png`.
+
 ## Do not
 - The owner's real name, employer or day job. "licensed" (use "insured" if needed).
