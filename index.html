@@ -156,7 +156,7 @@ will-change:transform;
 @keyframes kenburns { from { transform:scale(1); } to { transform:scale(1.09); } }
 .hero::before {
 content:""; position:absolute; inset:0; z-index:1;
-background:linear-gradient(rgba(16,22,14,.15) 0%, rgba(16,22,14,.25) 45%, rgba(16,22,14,.70) 100%);
+background:radial-gradient(ellipse 48% 42% at 50% 60%, rgba(10,14,9,.55), rgba(10,14,9,0) 100%), linear-gradient(rgba(16,22,14,.15) 0%, rgba(16,22,14,.25) 45%, rgba(16,22,14,.70) 100%);
 pointer-events:none;
 }
 .hero::after {
