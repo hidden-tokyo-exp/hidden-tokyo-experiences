@@ -554,13 +554,40 @@ animation:cueBounce 1.6s ease-in-out infinite; transition:opacity .4s;
 .brand { font-size:.85rem; gap:.4rem; }
 .brand-mark { width:26px; height:26px; }
 .top-nav { gap:.7rem; }
-<a class="top-cta" href="#tours">Book a Tour</a> .top-cta { padding:.42rem .75rem; font-size:.78rem; white-space:nowrap; }
+.top-cta { padding:.42rem .75rem; font-size:.78rem; white-space:nowrap; }
 .hero { padding:4.2rem 1rem 3.6rem; }
-<a class="top-cta" href="#tours">Book a Tour</a> }
+}
 @media (max-width:400px) {
 .brand-full { display:none; }
 .brand-short { display:inline; }
 }
+
+/* mobile menu (hamburger) */
+.menu-btn { display:none; width:42px; height:42px; border:0; background:transparent; cursor:pointer; position:relative; padding:0; color:var(--ink); }
+.menu-btn span { position:absolute; left:10px; right:10px; height:2px; border-radius:2px; background:currentColor; transition:transform .35s cubic-bezier(.22,.61,.36,1), opacity .25s, top .35s; }
+.menu-btn span:nth-child(1) { top:14px; } .menu-btn span:nth-child(2) { top:20px; } .menu-btn span:nth-child(3) { top:26px; }
+.menu-open .menu-btn span:nth-child(1) { top:20px; transform:rotate(45deg); }
+.menu-open .menu-btn span:nth-child(2) { opacity:0; }
+.menu-open .menu-btn span:nth-child(3) { top:20px; transform:rotate(-45deg); }
+.mnav { position:fixed; left:0; right:0; bottom:0; top:var(--bar-h,56px); z-index:49; background:#faf7f1; padding:1.6rem 1.6rem 2.4rem; display:flex; flex-direction:column; overflow-y:auto; opacity:0; visibility:hidden; transform:translateY(-10px); transition:opacity .3s, transform .35s cubic-bezier(.22,.61,.36,1), visibility 0s .35s; }
+.menu-open .mnav { opacity:1; visibility:visible; transform:none; transition:opacity .3s, transform .35s cubic-bezier(.22,.61,.36,1); }
+.mnav a.ml { font-family:'Fraunces',serif; font-size:1.55rem; font-weight:600; color:var(--ink); text-decoration:none; padding:.7rem 0; border-bottom:1px solid var(--line); opacity:0; transform:translateY(8px); transition:opacity .4s, transform .4s; }
+.menu-open .mnav a.ml { opacity:1; transform:none; }
+.menu-open .mnav a.ml:nth-child(2){transition-delay:.04s} .menu-open .mnav a.ml:nth-child(3){transition-delay:.08s} .menu-open .mnav a.ml:nth-child(4){transition-delay:.12s} .menu-open .mnav a.ml:nth-child(5){transition-delay:.16s} .menu-open .mnav a.ml:nth-child(6){transition-delay:.2s}
+.mnav .mcta { margin-top:1.6rem; text-align:center; }
+.mnav .msoc { display:flex; justify-content:center; gap:1.4rem; margin-top:1.4rem; }
+.mnav .msoc a { width:26px; height:26px; display:inline-flex; }
+.mnav .msoc svg { width:26px; height:26px; }
+body.menu-open { overflow:hidden; }
+.mnav .msoc a.instagram { color:#C1367B; } .mnav .msoc a.pinterest { color:#E60023; } .mnav .msoc a.red { color:#FF2442; }
+@media (max-width:720px) {
+.top-nav { display:none; }
+.menu-btn { display:block; }
+.brand-full { display:inline !important; }
+.brand-short { display:none !important; }
+}
+@media (min-width:721px) { .mnav { display:none; } }
+@media (prefers-reduced-motion: reduce) { .mnav, .mnav a.ml, .menu-btn span { transition:none !important; } }
 </style>
 <link rel="canonical" href="https://hkidachi3399.github.io/hidden-tokyo-experiences/">
 <meta property="og:url" content="https://hkidachi3399.github.io/hidden-tokyo-experiences/">
@@ -598,8 +625,19 @@ animation:cueBounce 1.6s ease-in-out infinite; transition:opacity .4s;
 <a class="ig-link red" href="https://www.xiaohongshu.com/user/profile/5c98a738000000001602cfdb" target="_blank" rel="noopener" aria-label="Follow on RED (Xiaohongshu)" title="Follow on RED (Xiaohongshu)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="1" width="22" height="22" rx="6" fill="#FF2442"/><text x="12" y="15.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="700" fill="#fff">RED</text></svg></a> <a class="ig-link x" href="https://x.com/HiddenTokyoJP" target="_blank" rel="noopener" aria-label="Follow on X" title="Follow on X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
 <a class="top-cta" href="#tours">Book a Tour</a>
 </nav>
+<button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span></span></button>
 </div>
 </div>
+<nav class="mnav" id="mnav" aria-label="Menu">
+<a class="ml" href="#tours">Tours</a>
+<a class="ml" href="#reviews">Reviews</a>
+<a class="ml" href="#story">Our story</a>
+<a class="ml" href="blog/">Journal</a>
+<a class="ml" href="faq.html">FAQ</a>
+<a class="ml" href="#custom-request">Custom request</a>
+<div class="mcta"><a class="btn btn-primary" href="#tours">Book a Tour</a></div>
+<div class="msoc"></div>
+</nav>
 
 <header class="hero" id="top">
 <div class="hero-bg" id="heroBg" aria-hidden="true"></div>
@@ -772,7 +810,7 @@ animation:cueBounce 1.6s ease-in-out infinite; transition:opacity .4s;
 <div class="grid-dots" id="tours-dots" aria-hidden="true"></div>
 </div>
 </section>
-<section>
+<section id="reviews">
 <div class="wrap">
 <div class="sec-head">
 <span class="kicker">What guests say</span>
@@ -806,7 +844,7 @@ animation:cueBounce 1.6s ease-in-out infinite; transition:opacity .4s;
 <div class="grid-dots" id="reviews-dots" aria-hidden="true"></div>
 </div>
 </section>
-<section class="guide">
+<section class="guide" id="story">
 <div class="wrap">
 <div class="guide-in">
 <div class="guide-photo">
@@ -1208,5 +1246,24 @@ window.location.href='mailto:hkidachi@gmail.com?subject='+encodeURIComponent(sub
 
 </script>
 <script src="tracking.js" defer></script>
+<script>
+(function(){
+  var btn=document.querySelector('.menu-btn'), nav=document.getElementById('mnav'), bar=document.querySelector('.topbar');
+  if(!btn||!nav) return;
+  var soc=nav.querySelector('.msoc');
+  document.querySelectorAll('.top-nav a.ig-link').forEach(function(a){ soc.appendChild(a.cloneNode(true)); });
+  function setH(){ if(bar) document.documentElement.style.setProperty('--bar-h', bar.getBoundingClientRect().height+'px'); }
+  function toggle(open){
+    setH();
+    document.body.classList.toggle('menu-open', open);
+    btn.setAttribute('aria-expanded', open?'true':'false');
+    btn.setAttribute('aria-label', open?'Close menu':'Open menu');
+  }
+  btn.addEventListener('click', function(){ toggle(!document.body.classList.contains('menu-open')); });
+  nav.addEventListener('click', function(e){ if(e.target.closest('a')) toggle(false); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') toggle(false); });
+  window.addEventListener('resize', function(){ if(window.innerWidth>720) toggle(false); });
+})();
+</script>
 </body>
 </html>
