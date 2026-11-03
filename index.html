@@ -154,6 +154,15 @@ animation:kenburns 26s ease-in-out infinite alternate;
 will-change:transform;
 }
 @keyframes kenburns { from { transform:scale(1); } to { transform:scale(1.09); } }
+/* hero slideshow: crossfades through every tour photo */
+.hero-slide { position:absolute; inset:0; background-size:cover; background-repeat:no-repeat; opacity:0; transition:opacity 1.6s ease; }
+.hero-slide.on { opacity:1; animation:slideZoom 7s ease-out forwards; }
+@keyframes slideZoom { from { transform:scale(1.02); } to { transform:scale(1.1); } }
+.hero-dots { position:absolute; left:0; right:0; bottom:1.1rem; z-index:3; display:flex; justify-content:center; gap:.45rem; }
+.hero-dots i { width:6px; height:6px; border-radius:50%; background:rgba(255,255,255,.45); transition:all .4s; }
+.hero-dots i.on { width:18px; border-radius:3px; background:#e8c06a; }
+.hero-cap { position:absolute; left:0; right:0; bottom:2.1rem; z-index:3; text-align:center; font-size:.72rem; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.85); text-shadow:0 1px 8px rgba(0,0,0,.6); transition:opacity .6s; }
+@media (prefers-reduced-motion: reduce) { .hero-slide { transition:none; } .hero-slide.on { animation:none; } }
 .hero::before {
 content:""; position:absolute; inset:0; z-index:1;
 background:radial-gradient(ellipse 48% 42% at 50% 60%, rgba(10,14,9,.55), rgba(10,14,9,0) 100%), linear-gradient(rgba(16,22,14,.15) 0%, rgba(16,22,14,.25) 45%, rgba(16,22,14,.70) 100%);
@@ -966,6 +975,32 @@ if(elAsk) elAsk.setAttribute('data-tour', pick.key);
 /* keep the hero background photo and its CTA button in sync with the same weekly pick, so the top of the page never looks stuck/mismatched again — uses a different photo (heroMedia) than the Featured card below so the two sections don't show the identical image */
 if(elHeroBg){ elHeroBg.style.backgroundImage=pick.heroMedia; elHeroBg.style.backgroundSize='cover'; elHeroBg.style.backgroundPosition=pick.heroPos; }
 if(elHeroCta){ elHeroCta.textContent='Featured: '+pick.short; elHeroCta.href=pick.heroCta; }
+/* slideshow: start with this week's pick, then rotate through the other tours every 6s */
+if(elHeroBg && feats.length>1){
+  var start=feats.indexOf(pick), list=feats.slice(start).concat(feats.slice(0,start));
+  var reduce=window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  elHeroBg.style.animation='none';
+  var dots=document.createElement('div'); dots.className='hero-dots'; dots.setAttribute('aria-hidden','true');
+  var slides=list.map(function(f,i){
+    var d=document.createElement('div'); d.className='hero-slide'+(i===0?' on':'');
+    if(i<2){ d.style.backgroundImage=f.heroMedia; }
+    d.style.backgroundPosition=f.heroPos; elHeroBg.appendChild(d);
+    var dot=document.createElement('i'); if(i===0) dot.className='on'; dots.appendChild(dot);
+    return d;
+  });
+  elHeroBg.parentNode.appendChild(dots);
+  var cap=document.createElement('div'); cap.className='hero-cap'; cap.textContent=list[0].short; elHeroBg.parentNode.appendChild(cap);
+  var cur=0;
+  if(!reduce){ setInterval(function(){
+    if(document.hidden) return;
+    var nx=(cur+1)%slides.length, after=(nx+1)%slides.length;
+    if(!slides[after].style.backgroundImage) slides[after].style.backgroundImage=list[after].heroMedia;
+    slides[cur].classList.remove('on'); dots.children[cur].classList.remove('on');
+    void slides[nx].offsetWidth; slides[nx].classList.add('on'); dots.children[nx].classList.add('on');
+    cap.style.opacity=0; setTimeout(function(){ cap.textContent=list[nx].short; cap.style.opacity=1; },500);
+    cur=nx;
+  },6000); }
+}
 })();
 
 /* scroll-reveal + topbar shadow + progress bar + hero parallax + mobile CTA */
