@@ -19,6 +19,24 @@ def meta(src, key):
     m = re.search(r"<!--%s:\s*(.*?)\s*-->" % key, src)
     return m.group(1) if m else None
 
+def sync_home_journal(n=3):
+    """Show the newest n posts from blog/index.html in the homepage Journal block."""
+    idx = open("blog/index.html", encoding="utf-8").read()
+    cards = re.findall(r'<a class="post-card" href="(.*?)">.*?<span class="date">(.*?)</span>\s*<h2>(.*?)</h2>', idx, re.S)[:n]
+    box = ("display:block; background:var(--card); border-radius:14px; padding:1.3rem 1.4rem; "
+           "text-decoration:none; color:inherit; box-shadow:0 2px 10px rgba(33,29,26,.06);")
+    out = "".join(
+        f'<a href="blog/{href}" style="{box}"> <div style="font-size:.78rem; color:var(--muted); margin-bottom:.4rem;">{date}</div> '
+        f'<h3 style="font-size:1.05rem; line-height:1.35;">{title}</h3> </a>\n'
+        for href, date, title in cards)
+    home = open("index.html", encoding="utf-8").read()
+    m = re.search(r"(<!-- JOURNAL:START[^>]*-->\n).*?(<!-- JOURNAL:END -->)", home, re.S)
+    if not m:
+        print("skip journal sync (no markers)"); return
+    new = home[: m.end(1)] + out + home[m.start(2):]
+    if new != home:
+        open("index.html", "w", encoding="utf-8").write(new); print("homepage journal updated")
+
 for path in sorted(glob.glob("_scheduled/*.html")):
     src = open(path, encoding="utf-8").read()
     when = meta(src, "publish_at")
@@ -61,6 +79,8 @@ for path in sorted(glob.glob("_scheduled/*.html")):
     open("llms.txt", "w", encoding="utf-8").write(l[:j] + line + l[j:])
     published.append(name)
     print("published:", name)
+
+sync_home_journal()
 
 if published:
     print("::notice::published " + ", ".join(published))
