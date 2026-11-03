@@ -10,6 +10,8 @@ When publish_at has passed, the file moves to blog/, and the blog index,
 sitemap.xml and llms.txt are updated. Run hourly by GitHub Actions.
 """
 import re, sys, glob, os, datetime as dt, html
+sys.path.insert(0, os.path.dirname(__file__))
+from author_box import add_blog
 
 BASE = "https://hkidachi3399.github.io/hidden-tokyo-experiences/blog/"
 now = dt.datetime.now(dt.timezone.utc)
@@ -50,7 +52,7 @@ for path in sorted(glob.glob("_scheduled/*.html")):
     title = html.unescape(re.search(r"<h1>(.*?)</h1>", src, re.S).group(1)).strip()
     datelabel = re.search(r'<span class="date">(.*?) ·', src).group(1)
     short = re.search(r'<span class="date">(.*?)</span>', src).group(1)
-    clean = re.sub(r"<!--(publish_at|thumb|card|llms):.*?-->\n?", "", src)
+    clean = add_blog(re.sub(r"<!--(publish_at|thumb|card|llms):.*?-->\n?", "", src))
     name = os.path.basename(path)
     open("blog/" + name, "w", encoding="utf-8").write(clean)
     os.remove(path)
