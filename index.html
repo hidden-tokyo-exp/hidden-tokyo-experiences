@@ -997,7 +997,7 @@ if(elHeroBg && feats.length>1){
     if(!slides[after].style.backgroundImage) slides[after].style.backgroundImage=list[after].heroMedia;
     slides[cur].classList.remove('on'); dots.children[cur].classList.remove('on');
     void slides[nx].offsetWidth; slides[nx].classList.add('on'); dots.children[nx].classList.add('on');
-    cap.style.opacity=0; setTimeout(function(){ cap.textContent=list[nx].short; cap.style.opacity=1; },500);
+    cap.style.opacity=0; setTimeout(function(){ cap.textContent=list[nx].short; cap.style.opacity=1; },800);
     cur=nx;
   },6000); }
 }
