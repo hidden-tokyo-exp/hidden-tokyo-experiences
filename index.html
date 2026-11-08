@@ -13,35 +13,35 @@ gtag('config', 'G-5JVQNQXHXW');
 <link rel="alternate" type="text/plain" href="llms.txt" title="LLM-friendly summary of Hidden Tokyo Experiences">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hidden Tokyo Experiences by Hide — Small-Group Walking Tours in West Tokyo &amp; Saitama</title>
-<meta name="description" content="★5.0-rated small-group walking tours within about an hour of Ikebukuro. Zen temples, Totoro's forest, sake breweries, samurai ruins — the Tokyo nobody tells you about. Guided by an insured, English-speaking local.">
+<meta name="description" content="★5.0-rated small-group walking tours within about an hour of Ikebukuro. Zen temples, Totoro's forest, sake breweries, samurai ruins — in west Tokyo and Saitama. Four guests at most, guided by an insured, English-speaking local.">
 <meta property="og:title" content="Hidden Tokyo Experiences by Hide">
-<meta property="og:description" content="The Tokyo nobody tells you about. ★5.0-rated small-group tours led by Hide, a Tokyo local.">
+<meta property="og:description" content="Walking tours in west Tokyo and Saitama, four guests at most. ★5.0 on GetYourGuide. Led by Hide, a Tokyo-born local.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#1c2618">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="preload" as="image" href="hero.jpg" fetchpriority="high">
 <style>
 :root {
---ink: #1b1714;
---paper: #f5efe2;
+--ink: #17222e;
+--paper: #ebeee8;
 --card: #ffffff;
---accent: #c23e27; /* vermillion */
---accent-dark: #9c2f1a;
+--accent: #d4601f; /* vermillion */
+--accent-dark: #a84a14;
 --green: #2f4a38;
---gold: #c99a3a;
---gold-soft: rgba(201,154,58,.35);
---muted: #6a6153;
---line: #e3d7c4;
---radius: 16px;
+--gold: #7d8f52;
+--gold-soft: rgba(125,143,82,.35);
+--muted: #55616d;
+--line: #d0d7cb;
+--radius: 6px;
 --shadow: 0 2px 6px rgba(33,29,26,.05), 0 10px 30px rgba(33,29,26,.07);
 --shadow-lg: 0 4px 10px rgba(33,29,26,.06), 0 22px 48px rgba(33,29,26,.13);
 }
 * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
 html { scroll-behavior:smooth; overflow-x:hidden; }
 body {
-font-family:'Inter',-apple-system,'Hiragino Sans',sans-serif;
+font-family:'Zen Kaku Gothic New',-apple-system,'Hiragino Sans',sans-serif;
 background:var(--paper); color:var(--ink);
 line-height:1.65; -webkit-font-smoothing:antialiased;
 overflow-x:hidden; width:100%;
@@ -52,13 +52,13 @@ background:linear-gradient(90deg,var(--gold),var(--accent)); pointer-events:none
 }
 /* paper grain */
 body::after {
-content:""; position:fixed; inset:0; z-index:2000; pointer-events:none; opacity:.05;
+content:""; position:fixed; inset:0; z-index:2000; pointer-events:none; opacity:0;
 background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="140" height="140" filter="url(%23n)"/></svg>');
 }
-h1,h2,h3,.serif { font-family:'Fraunces',Georgia,serif; letter-spacing:-.012em; }
+h1,h2,h3,.serif { font-family:'Shippori Mincho','Hiragino Mincho ProN',Georgia,serif; letter-spacing:-.012em; }
 img { display:block; max-width:100%; }
 a { color:var(--accent); }
-::selection { background:rgba(201,154,58,.28); }
+::selection { background:rgba(125,143,82,.28); }
 
 /* scroll-reveal */
 .rv { opacity:0; transform:translateY(20px); transition:opacity .75s cubic-bezier(.22,.61,.36,1), transform .75s cubic-bezier(.22,.61,.36,1); }
@@ -83,7 +83,7 @@ transition:box-shadow .3s;
 max-width:1060px; margin:0 auto; padding:.6rem 1.1rem;
 display:flex; align-items:center; justify-content:space-between; gap:1rem;
 }
-.brand { font-family:'Fraunces',serif; font-weight:700; font-size:1.02rem; letter-spacing:.02em; color:var(--ink); text-decoration:none; white-space:nowrap; display:flex; align-items:center; gap:.55rem; }
+.brand { font-family:'Shippori Mincho',serif; font-weight:700; font-size:1.02rem; letter-spacing:.02em; color:var(--ink); text-decoration:none; white-space:nowrap; display:flex; align-items:center; gap:.55rem; }
 .brand span { color:var(--accent); }
 .brand-short { display:none; color:var(--accent); }
 .brand-mark { width:32px; height:32px; border-radius:50%; box-shadow:0 0 0 1px var(--gold-soft); }
@@ -118,7 +118,7 @@ background:var(--accent); transition:right .3s cubic-bezier(.22,.61,.36,1);
 /* ---------- Stats strip ---------- */
 .stats { display:flex; flex-wrap:wrap; justify-content:center; gap:1.6rem 2.6rem; padding:2.1rem 1rem; background:var(--card); border-bottom:1px solid var(--line); }
 .stat { text-align:center; min-width:92px; }
-.stat b { display:block; font-family:'Fraunces',serif; font-size:1.85rem; font-weight:700; color:var(--accent); line-height:1; }
+.stat b { display:block; font-family:'Shippori Mincho',serif; font-size:1.85rem; font-weight:700; color:var(--accent); line-height:1; }
 .stat span { display:block; margin-top:.3rem; font-size:.72rem; color:var(--muted); text-transform:uppercase; letter-spacing:.07em; font-weight:600; }
 
 /* ---------- Mobile sticky book bar ---------- */
@@ -171,7 +171,7 @@ pointer-events:none;
 .hero::after {
 content:""; position:absolute; inset:0; z-index:1;
 background:
-radial-gradient(ellipse at 50% 125%, rgba(201,154,58,.3), transparent 58%),
+radial-gradient(ellipse at 50% 125%, rgba(125,143,82,.3), transparent 58%),
 radial-gradient(ellipse at 50% -30%, rgba(0,0,0,.35), transparent 60%);
 pointer-events:none;
 }
@@ -195,7 +195,7 @@ display:inline-block; font-size:.78rem; letter-spacing:.26em; text-transform:upp
 color:#d8cfae; margin-bottom:1.2rem; font-weight:600;
 }
 .hero h1 { font-size:clamp(2.1rem,6.4vw,3.4rem); font-weight:700; line-height:1.12; margin-bottom:1.1rem; text-shadow:0 2px 24px rgba(0,0,0,.35); text-wrap:balance; }
-.hero h1 em { font-style:italic; color:#e9c268; }
+.hero h1 em { font-style:normal; color:#f4a771; }
 .hero p.lead { font-size:clamp(1rem,2.6vw,1.16rem); color:#e8e2d2; max-width:34rem; margin:0 auto 1.7rem; }
 .hero .proof {
 display:flex; flex-wrap:wrap; gap:.6rem; justify-content:center; margin-bottom:2rem;
@@ -214,9 +214,9 @@ transition:transform .2s cubic-bezier(.22,.61,.36,1), box-shadow .2s, background
 }
 .btn-primary {
 position:relative; overflow:hidden;
-background:linear-gradient(150deg,#d1523a 0%, #c23e27 55%, #a52e1a 100%);
+background:linear-gradient(150deg,#d1523a 0%, #d4601f 55%, #a52e1a 100%);
 color:#fff;
-box-shadow:0 1px 2px rgba(140,40,20,.42), 0 8px 22px rgba(194,62,39,.4);
+box-shadow:0 1px 2px rgba(140,40,20,.42), 0 8px 22px rgba(212,96,31,.4);
 }
 .btn-primary::before {
 content:""; position:absolute; inset:0; pointer-events:none;
@@ -224,7 +224,7 @@ background:linear-gradient(115deg, transparent 42%, rgba(255,255,255,.4) 50%, tr
 transform:translateX(-130%); transition:transform .65s ease;
 }
 .btn-primary:hover::before { transform:translateX(130%); }
-.btn-primary:hover { transform:translateY(-2px); box-shadow:0 2px 4px rgba(140,40,20,.42), 0 14px 30px rgba(194,62,39,.48); }
+.btn-primary:hover { transform:translateY(-2px); box-shadow:0 2px 4px rgba(140,40,20,.42), 0 14px 30px rgba(212,96,31,.48); }
 .btn-ghost { border:1.5px solid rgba(255,255,255,.55); color:#fff; }
 .btn-ghost:hover { background:rgba(255,255,255,.14); transform:translateY(-2px); }
 
@@ -274,7 +274,7 @@ box-shadow:0 4px 12px rgba(130,95,20,.38);
 .featured-body h3 { font-size:1.45rem; line-height:1.25; margin-bottom:.7rem; }
 .featured-body p { color:var(--muted); font-size:.95rem; margin-bottom:1.1rem; }
 .price-row { display:flex; align-items:baseline; gap:.6rem; margin-bottom:1.2rem; flex-wrap:wrap; }
-.price-now { font-family:'Fraunces',serif; font-size:1.7rem; font-weight:700; color:var(--accent); }
+.price-now { font-family:'Shippori Mincho',serif; font-size:1.7rem; font-weight:700; color:var(--accent); }
 .price-was { color:var(--muted); text-decoration:line-through; font-size:1rem; }
 .price-off { background:#f3e3df; color:var(--accent-dark); font-size:.75rem; font-weight:700; padding:.2rem .55rem; border-radius:6px; }
 .per { font-size:.8rem; color:var(--muted); }
@@ -379,8 +379,8 @@ color:var(--accent); text-decoration:none; margin-top:.55rem;
 .guide { background:#efe7d5; position:relative; overflow:hidden; }
 .guide::before {
 content:""; position:absolute; inset:0; pointer-events:none;
-background:radial-gradient(ellipse at 12% 20%, rgba(201,154,58,.1), transparent 45%),
-radial-gradient(ellipse at 90% 90%, rgba(194,62,39,.07), transparent 40%);
+background:radial-gradient(ellipse at 12% 20%, rgba(125,143,82,.1), transparent 45%),
+radial-gradient(ellipse at 90% 90%, rgba(212,96,31,.07), transparent 40%);
 }
 .guide-in {
 position:relative;
@@ -398,7 +398,7 @@ overflow:hidden;
 .guide-photo img { width:100%; height:100%; object-fit:cover; display:block; }
 .guide-txt h2 { font-size:1.6rem; margin-bottom:.7rem; }
 .guide-txt p { color:#4d463d; font-size:.95rem; margin-bottom:.8rem; }
-.guide-txt .sig { font-family:'Fraunces',serif; font-style:italic; color:var(--accent); font-size:1.05rem; }
+.guide-txt .sig { font-family:'Shippori Mincho',serif; color:var(--accent); font-size:1.05rem; }
 
 /* ---------- Why ---------- */
 .why-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:1.2rem; }
@@ -412,7 +412,7 @@ transition:transform .3s cubic-bezier(.22,.61,.36,1), box-shadow .3s;
 width:48px; height:48px; border-radius:14px; font-size:1.35rem;
 display:flex; align-items:center; justify-content:center;
 background:linear-gradient(150deg,#fbf6ec,#f3ecdd);
-box-shadow:inset 0 0 0 1px rgba(201,154,58,.2);
+box-shadow:inset 0 0 0 1px rgba(125,143,82,.2);
 margin-bottom:.8rem;
 }
 .why h3 { font-size:1rem; margin-bottom:.4rem; }
@@ -457,7 +457,7 @@ padding:.65rem .8rem; transition:border-color .2s, box-shadow .2s;
 outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(181,67,47,.12);
 }
 .request-actions { display:flex; flex-wrap:wrap; gap:.8rem; justify-content:center; margin-top:.4rem; }
-.request-note { color:#6a6153; font-size:.8rem; text-align:center; margin-top:.9rem; }
+.request-note { color:#55616d; font-size:.8rem; text-align:center; margin-top:.9rem; }
 @media (max-width:640px) {
 .form-row { grid-template-columns:1fr; }
 }
@@ -466,7 +466,7 @@ outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(181,67,47,.1
 .final {
 position:relative; overflow:hidden;
 background:linear-gradient(160deg,#28242e 0%, #38313f 55%, #453a2e 100%);
-border:1px solid rgba(201,154,58,.3);
+border:1px solid rgba(125,143,82,.3);
 color:#f6f2e9; text-align:center; border-radius:20px;
 padding:3.4rem 1.5rem; margin-bottom:4rem;
 box-shadow:var(--shadow-lg);
@@ -474,7 +474,7 @@ box-shadow:var(--shadow-lg);
 .final::before {
 content:""; position:absolute; inset:0; pointer-events:none;
 background:
-radial-gradient(ellipse at 50% 135%, rgba(201,154,58,.32), transparent 55%),
+radial-gradient(ellipse at 50% 135%, rgba(125,143,82,.32), transparent 55%),
 radial-gradient(1.5px 1.5px at 18% 28%, rgba(255,255,255,.5), transparent 100%),
 radial-gradient(1.5px 1.5px at 78% 20%, rgba(255,255,255,.4), transparent 100%),
 radial-gradient(1px 1px at 62% 42%, rgba(255,255,255,.35), transparent 100%),
@@ -574,7 +574,7 @@ animation:cueBounce 1.6s ease-in-out infinite; transition:opacity .4s;
 .menu-open .menu-btn span:nth-child(3) { top:20px; transform:rotate(-45deg); }
 .mnav { position:fixed; left:0; right:0; bottom:0; top:var(--bar-h,56px); z-index:49; background:#faf7f1; padding:1.6rem 1.6rem 2.4rem; display:flex; flex-direction:column; overflow-y:auto; opacity:0; visibility:hidden; transform:translateY(-10px); transition:opacity .3s, transform .35s cubic-bezier(.22,.61,.36,1), visibility 0s .35s; }
 .menu-open .mnav { opacity:1; visibility:visible; transform:none; transition:opacity .3s, transform .35s cubic-bezier(.22,.61,.36,1); }
-.mnav a.ml { font-family:'Fraunces',serif; font-size:1.55rem; font-weight:600; color:var(--ink); text-decoration:none; padding:.7rem 0; border-bottom:1px solid var(--line); opacity:0; transform:translateY(8px); transition:opacity .4s, transform .4s; }
+.mnav a.ml { font-family:'Shippori Mincho',serif; font-size:1.55rem; font-weight:600; color:var(--ink); text-decoration:none; padding:.7rem 0; border-bottom:1px solid var(--line); opacity:0; transform:translateY(8px); transition:opacity .4s, transform .4s; }
 .menu-open .mnav a.ml { opacity:1; transform:none; }
 .menu-open .mnav a.ml:nth-child(2){transition-delay:.04s} .menu-open .mnav a.ml:nth-child(3){transition-delay:.08s} .menu-open .mnav a.ml:nth-child(4){transition-delay:.12s} .menu-open .mnav a.ml:nth-child(5){transition-delay:.16s} .menu-open .mnav a.ml:nth-child(6){transition-delay:.2s}
 .mnav .mcta { margin-top:1.6rem; text-align:center; }
@@ -651,8 +651,8 @@ body.menu-open { overflow:hidden; }
 <div class="hero-bg" id="heroBg" aria-hidden="true"></div>
 <div class="hero-in">
 <span class="kicker">Small-group tours · West Tokyo</span>
-<h1>The Tokyo <em>nobody</em> tells you about.</h1>
-<p class="lead">Small groups, unhurried days, about an hour from Ikebukuro.</p>
+<h1>Temples, forests and sake, <em>an hour</em> from Ikebukuro.</h1>
+<p class="lead">Walking tours in west Tokyo and Saitama. Four guests at most, led by a Tokyo-born local.</p>
 <div class="hero-ctas"><a class="btn btn-ghost" href="#tours">Explore the tours</a>
 
 
@@ -670,8 +670,9 @@ body.menu-open { overflow:hidden; }
 <div class="wrap">
 <div class="sec-head">
 <span class="kicker">All experiences</span>
-<h2>Eleven ways to escape the crowds</h2>
+<h2>Eleven walks in west Tokyo and Saitama</h2>
 <p>Every listed tour is ★5.0-rated, small-group, and books instantly on GetYourGuide. Don't see a date that works — or want our newest farm tour? We take custom requests too — <a href="#custom-request">just ask</a>.</p>
+<p style="max-width:720px;margin:.6rem auto 0;font-size:.95rem;color:var(--muted);"><strong>Not for you if</strong> you want a checklist of famous sights, a fixed big-group schedule, or a guarantee of empty streets. These are walks with a local, at walking pace.</p>
 </div>
 <div style="text-align:center;"><span class="swipe-hint">👉 Swipe for more tours</span></div>
 <div class="grid">
@@ -681,7 +682,7 @@ body.menu-open { overflow:hidden; }
 <div class="card-body">
 <div class="stars">★★★★★ 5.0</div>
 <h3>Hanno Forest, Fermentation Park &amp; Sake Tour</h3>
-<p class="desc">One hour from Ikebukuro, zero tourists. A 500-year-old Zen temple garden, Japan's most unusual fermentation theme park, and sake brewed with mountain spring water at Igarashi Brewery.</p>
+<p class="desc">About an hour from Ikebukuro. A 500-year-old Zen temple garden, Japan's most unusual fermentation theme park, and sake brewed with mountain spring water at Igarashi Brewery.</p>
 <div class="tour-tags"><span class="tag">5 hours</span><span class="tag">Sake tasting</span><span class="tag">Optional Mt. Tenranzan hike</span></div>
 <a class="card-cta" href="https://www.getyourguide.com/hanno-l153846/tokyo-hanno-forest-fermentation-park-sake-tour-t1352325/?partner_id=YFZH76Z&utm_medium=online_publisher&cmp=hte-lp-hanno" target="_blank" rel="noopener sponsored">Book this tour</a>
 <a class="ask-link" style="margin-top:.35rem;" href="tours/hanno-sake-brewery-tour-tokyo.html">Tour details →</a>
@@ -720,7 +721,7 @@ body.menu-open { overflow:hidden; }
 <div class="card-body">
 <div class="stars">★★★★★ 5.0</div>
 <h3>Heirinji Zen Temple Maple Walk &amp; Woodland Café</h3>
-<p class="desc">500 years of silence. One path. No tourists. Walk the ancient monks' path through cedar forest and feel what "Zen" actually means.</p>
+<p class="desc">A 500-year-old temple, then the monks' path through cedar forest, walked slowly.</p>
 <div class="tour-tags"><span class="tag">Half-day</span><span class="tag">Meditation</span><span class="tag">Temple</span></div>
 <a class="card-cta" href="https://www.getyourguide.com/tokyo-l193/tokyo-heirinji-temple-tour-with-matcha-t1130692/?partner_id=YFZH76Z&utm_medium=online_publisher&cmp=hte-lp-heirinji" target="_blank" rel="noopener sponsored">Book this tour</a>
 <a class="ask-link" style="margin-top:.35rem;" href="tours/heirinji-temple-tour-tokyo.html">Tour details →</a>
@@ -823,7 +824,7 @@ body.menu-open { overflow:hidden; }
 <div class="sec-head">
 <span class="kicker">What guests say</span>
 <h2>Real reviews, straight from GetYourGuide.</h2>
-<p>No cherry-picked marketing copy — these are verified guest reviews, lightly trimmed for length.</p>
+<p>Verified guest reviews from GetYourGuide, lightly trimmed for length.</p>
 </div>
 <div class="reviews-grid"> <div class="review-card"> <div class="review-stars">★★★★★</div> <p class="review-quote">"I cannot recommend Hide enough! Hide did an excellent job of explaining the local wildlife, plants and anime inspiration … What stood out most was Hide's excellent Tea House recommendation, which made everyone in our group feel relaxed and refreshed."</p> <div class="review-attr"> <div> <div class="review-who">Morgan <span>· United Kingdom</span></div> <div class="review-tour">Totoro-Inspired Forest Walk &amp; Lake Sayama Views</div> </div> <span class="review-badge">✓ Verified on GetYourGuide</span> </div> </div>
 <div class="review-card">
@@ -864,7 +865,7 @@ body.menu-open { overflow:hidden; }
 <p>I was born and raised in Tokyo, and I've spent my life exploring the corners of this city that never make it into guidebooks. I share the places I actually love — quiet temples, forest trails, neighborhood bathhouses, and the best noodle shops nobody photographs.</p>
 <p>Every tour is small (four guests max), unhurried, and personal. You won't follow a flag. You'll walk with a local friend.</p>
 <p>The name has a small pun in it: there is a Hide in every Hidden.</p>
-<ul style="list-style:none;padding:0;margin:.4rem 0 1rem;display:grid;gap:.35rem;font-size:.95rem;"><li>★ 5.0 on GetYourGuide</li><li>Up to 4 guests per tour</li><li>Free cancellation up to 24 hours before</li><li>Author of <a href="#book" style="color:var(--accent);"><em>Hidden Tokyo: A Local Guide's Notebook</em></a></li></ul>
+<ul style="list-style:none;padding:0;margin:.4rem 0 1rem;display:grid;gap:.35rem;font-size:.95rem;"><li>★ 5.0 on GetYourGuide</li><li>Up to 4 guests per tour</li><li>Insured guide (liability cover)</li><li>Free cancellation up to 24 hours before</li><li>Author of <a href="#book" style="color:var(--accent);"><em>Hidden Tokyo: A Local Guide's Notebook</em></a></li></ul>
 <div style="display:flex; flex-direction:column; align-items:flex-start; gap:.55rem; font-size:.9rem; margin-bottom:.8rem;">
 <a href="https://www.instagram.com/hiddentokyo_experiences/" target="_blank" rel="noopener" style="color:var(--accent); font-weight:600; text-decoration:none; display:inline-block;">📷 Follow along on Instagram →</a>
 </div>
@@ -972,7 +973,7 @@ body.menu-open { overflow:hidden; }
 
 <div class="wrap">
 <div class="final">
-<h2>Ready to see the Tokyo most visitors miss?</h2>
+<h2>Pick a date and walk it with me.</h2>
 <p>Small groups of up to 4. Free cancellation up to 24 hours before.</p>
 <a class="btn btn-primary" href="https://www.getyourguide.com/hanno-l153846/tokyo-hanno-forest-fermentation-park-sake-tour-t1352325/?partner_id=YFZH76Z&utm_medium=online_publisher&cmp=hte-lp-footer-cta" target="_blank" rel="noopener sponsored">Book the Hanno Sake &amp; Forest Tour</a>
 </div>
