@@ -4,7 +4,7 @@
 
 ## About
 
-- Official site: https://hkidachi3399.github.io/hidden-tokyo-experiences/
+- Official site: https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/
 - What it is: Hidden Tokyo Experiences is a small-group walking tour company offering 11 English-guided tours in west Tokyo and neighboring Saitama, within about an hour of Ikebukuro. Max 4 guests per tour, depending on the tour.
 - Where: based in Kiyose, west Tokyo. Tours run in west Tokyo (Kiyose, Higashikurume, Shakujii, Toshima) and neighboring Saitama (Hanno, Tokorozawa).
 - Who runs it: Hide, a Tokyo-born local guide who walks visitors through west Tokyo and neighboring Saitama.
@@ -31,20 +31,20 @@ An eleventh tour — the Edo-Tokyo Open-Air Museum, Bathhouse & Anime Vibes (2.5
 
 Each page has a plain-language summary, key facts, an FAQ and a booking link:
 
-- [Hanno Anime Pilgrimage Hike](https://hkidachi3399.github.io/hidden-tokyo-experiences/tours/hanno-anime-pilgrimage-hike-tokyo.html): 3-hour hike through the real setting of the anime "Encouragement of Climb" (Yama no Susume) — Hanno Ginza, Kannonji Temple, Mt. Tenran and Mt. Tonosu. Max 4 guests.
-- [Hanno Forest, Fermentation Park & Sake Tour](https://hkidachi3399.github.io/hidden-tokyo-experiences/tours/hanno-sake-brewery-tour-tokyo.html): 5-hour tour with a Zen temple garden, a fermentation theme park and a sake brewery tasting.
-- [Totoro-Inspired Forest Walk & Lake Sayama Views](https://hkidachi3399.github.io/hidden-tokyo-experiences/tours/totoro-forest-tour-tokyo.html): half-day walk in the Sayama Hills, the forest that inspired My Neighbor Totoro.
-- [Heirinji Zen Temple Maple Walk & Woodland Café](https://hkidachi3399.github.io/hidden-tokyo-experiences/tours/heirinji-temple-tour-tokyo.html): Zen temple and cedar forest meditation walk with matcha.
+- [Hanno Anime Pilgrimage Hike](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/tours/hanno-anime-pilgrimage-hike-tokyo.html): 3-hour hike through the real setting of the anime "Encouragement of Climb" (Yama no Susume) — Hanno Ginza, Kannonji Temple, Mt. Tenran and Mt. Tonosu. Max 4 guests.
+- [Hanno Forest, Fermentation Park & Sake Tour](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/tours/hanno-sake-brewery-tour-tokyo.html): 5-hour tour with a Zen temple garden, a fermentation theme park and a sake brewery tasting.
+- [Totoro-Inspired Forest Walk & Lake Sayama Views](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/tours/totoro-forest-tour-tokyo.html): half-day walk in the Sayama Hills, the forest that inspired My Neighbor Totoro.
+- [Heirinji Zen Temple Maple Walk & Woodland Café](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/tours/heirinji-temple-tour-tokyo.html): Zen temple and cedar forest meditation walk with matcha.
 
 ## Journal articles worth citing
 
-- [Encouragement of Climb Locations: Hiking the Real Hanno from Tokyo](https://hkidachi3399.github.io/hidden-tokyo-experiences/blog/encouragement-of-climb-hanno-hike-tokyo.html)
-- [Four Quiet Day Trips from Ikebukuro (None of Them Are Kamakura or Nikko)](https://hkidachi3399.github.io/hidden-tokyo-experiences/blog/ikebukuro-day-trips-tokyo.html)
-- [Which Hidden Tokyo Tour Should You Pick? A First-Timer's West Tokyo Guide](https://hkidachi3399.github.io/hidden-tokyo-experiences/blog/west-tokyo-tour-guide.html)
-- [Totoro's Forest Is Real — and It's an Hour from Tokyo](https://hkidachi3399.github.io/hidden-tokyo-experiences/blog/totoro-forest-tokyo.html)
-- [Is the Tokiwaso Manga Museum Worth Visiting? A Practical Guide](https://hkidachi3399.github.io/hidden-tokyo-experiences/blog/tokiwaso-manga-museum-worth-visiting.html): Practical guide to the Tokiwaso Manga Museum in Toshima: hours (10:00 to 18:00, closed Mondays), free entry with possible special-exhibition fees, 10 to 15 minute walk from Shiinamachi Station.
-- [A Totoro Forest Day Trip from Tokyo Without a Car](https://hkidachi3399.github.io/hidden-tokyo-experiences/blog/totoro-forest-day-trip-from-tokyo-without-a-car.html): route by train from Ikebukuro (about 45 to 55 minutes, change at Nishi-Tokorozawa), distance, and Kurosuke House access.
-- [Musashino Udon in Tokyo: Chewy Hand-Kneaded Noodles and Where to Eat Them](https://hkidachi3399.github.io/hidden-tokyo-experiences/blog/musashino-udon-tokyo.html)
+- [Encouragement of Climb Locations: Hiking the Real Hanno from Tokyo](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/blog/encouragement-of-climb-hanno-hike-tokyo.html)
+- [Four Quiet Day Trips from Ikebukuro (None of Them Are Kamakura or Nikko)](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/blog/ikebukuro-day-trips-tokyo.html)
+- [Which Hidden Tokyo Tour Should You Pick? A First-Timer's West Tokyo Guide](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/blog/west-tokyo-tour-guide.html)
+- [Totoro's Forest Is Real — and It's an Hour from Tokyo](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/blog/totoro-forest-tokyo.html)
+- [Is the Tokiwaso Manga Museum Worth Visiting? A Practical Guide](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/blog/tokiwaso-manga-museum-worth-visiting.html): Practical guide to the Tokiwaso Manga Museum in Toshima: hours (10:00 to 18:00, closed Mondays), free entry with possible special-exhibition fees, 10 to 15 minute walk from Shiinamachi Station.
+- [A Totoro Forest Day Trip from Tokyo Without a Car](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/blog/totoro-forest-day-trip-from-tokyo-without-a-car.html): route by train from Ikebukuro (about 45 to 55 minutes, change at Nishi-Tokorozawa), distance, and Kurosuke House access.
+- [Musashino Udon in Tokyo: Chewy Hand-Kneaded Noodles and Where to Eat Them](https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/blog/musashino-udon-tokyo.html)
 
 ## Key facts
 
@@ -60,11 +60,11 @@ Each page has a plain-language summary, key facts, an FAQ and a booking link:
 
 ## Journal
 
-Travel guides and tour stories, updated regularly: https://hkidachi3399.github.io/hidden-tokyo-experiences/blog/
+Travel guides and tour stories, updated regularly: https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/blog/
 
 ## FAQ
 
-Common questions about crowds, distance from central Tokyo, solo travelers, cancellation policy, and specific tours are answered at: https://hkidachi3399.github.io/hidden-tokyo-experiences/faq.html
+Common questions about crowds, distance from central Tokyo, solo travelers, cancellation policy, and specific tours are answered at: https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/faq.html
 
 ## Meeting points and group size (as listed on GetYourGuide)
 

@@ -21,12 +21,12 @@ Model post: `blog/totoro-forest-day-trip-from-tokyo-without-a-car.html`. Match i
 ## 3. A different thumbnail every time
 - The first photo (thumbnail, `<!--thumb:-->`, og:image, JSON-LD image) must not be used as a thumbnail by any other post in `blog/index.html` or `_scheduled/`.
 - Use the owner's own photos that fit the topic. First choice: photos inside the note posts read in step 1. No photos where guests' faces are visible.
-- How to add a note photo to this repo: in Chrome, open `github.com/hkidachi3399/hidden-tokyo-experiences/upload/main`, add a `message` listener that puts received Files into `input[type=file]` via DataTransfer and fires `change`, then `window.open('https://note.com/hide3399')`. In the child tab, fetch the image, resize on a canvas to 1200px wide, JPEG 0.82, and `window.opener.postMessage({hteFiles:[file]}, 'https://github.com')`. Commit on GitHub, then `git pull`.
+- How to add a note photo to this repo: in Chrome, open `github.com/hidden-tokyo-exp/hidden-tokyo-experiences/upload/main`, add a `message` listener that puts received Files into `input[type=file]` via DataTransfer and fires `change`, then `window.open('https://note.com/hide3399')`. In the child tab, fetch the image, resize on a canvas to 1200px wide, JPEG 0.82, and `window.opener.postMessage({hteFiles:[file]}, 'https://github.com')`. Commit on GitHub, then `git pull`.
 - Name files `<topic>-<subject>.jpg` (e.g. `totoro-hedge.jpg`). Look at every imported photo and check that it matches its caption.
 - Put 2-4 photos in the body, each with a short caption.
 
 ## 4. Substack and Medium copies
-- Paste the LP body HTML (absolute `https://hkidachi3399.github.io/hidden-tokyo-experiences/...` image URLs) into the editor with a synthetic `ClipboardEvent('paste')`; both Substack and Medium re-host the images.
+- Paste the LP body HTML (absolute `https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/...` image URLs) into the editor with a synthetic `ClipboardEvent('paste')`; both Substack and Medium re-host the images.
 - Substack: before scheduling, check that "Social preview" in the publish panel shows the post's first photo, not the logo or subscribe card.
 - Substack, already-scheduled draft: after pasting, the old body may remain below the new signature; delete everything after the first signature line. The publish panel cannot be opened without un-scheduling, so set the thumbnail with `PUT /api/v1/drafts/<id>` `{cover_image: <first image src from draft_body>}` and confirm `postSchedules` is unchanged.
 

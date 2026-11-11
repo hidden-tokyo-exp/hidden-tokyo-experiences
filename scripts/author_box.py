@@ -8,7 +8,7 @@ Idempotent: pages that already have <!--author-box--> are skipped.
 """
 import glob, re, sys
 
-SITE = "https://hkidachi3399.github.io/hidden-tokyo-experiences/"
+SITE = "https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/"
 BOX = '''<!--author-box-->
 <aside style="display:flex;gap:1rem;align-items:center;margin:2.4rem 0 0;padding:1.1rem 1.2rem;background:#fff;border:1px solid #e3d7c4;border-radius:14px;">
 <img src="../hide-avatar.svg" alt="Illustration of Hide, your guide" width="72" height="72" style="width:72px;height:72px;border-radius:50%;flex:none;" loading="lazy">

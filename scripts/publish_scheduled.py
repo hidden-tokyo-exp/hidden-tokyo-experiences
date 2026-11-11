@@ -13,7 +13,7 @@ import re, sys, glob, os, datetime as dt, html
 sys.path.insert(0, os.path.dirname(__file__))
 from author_box import add_blog
 
-BASE = "https://hkidachi3399.github.io/hidden-tokyo-experiences/blog/"
+BASE = "https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/blog/"
 now = dt.datetime.now(dt.timezone.utc)
 published = []
 
