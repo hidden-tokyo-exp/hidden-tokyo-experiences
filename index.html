@@ -943,10 +943,10 @@ body.menu-open { overflow:hidden; }
 </label>
 </div>
 <div class="request-actions">
-<button type="submit" class="btn btn-primary">✉ Send Request via Email</button>
+<button type="submit" class="btn btn-primary">✉ Send Request</button>
 <a class="btn" style="border:1.5px solid var(--accent); color:var(--accent);" href="https://www.instagram.com/hiddentokyo_experiences/" target="_blank" rel="noopener">📷 Or DM us on Instagram</a>
 </div>
-<p class="request-note">"Send Request" opens your email app with everything pre-filled — nothing is sent automatically. Prefer chat? DM @hiddentokyo_experiences on Instagram instead.</p>
+<p class="request-note">"Send Request" sends your request to me directly. I reply within 24h. Prefer chat? DM @hiddentokyo_experiences on Instagram instead.</p>
 </form>
 </div>
 </section>
@@ -1264,7 +1264,7 @@ var body=[
 if(typeof gtag==='function'){
 gtag('event','custom_request_submit',{tour:tour, page_location: window.location.href});
 }
-window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSd6ihgI1jRm71CEA3cTG5syQX4YQ-OpI-rSAkJ3hNMnctZUrQ/viewform?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+var fd=new URLSearchParams();fd.append('entry.1951352352',name);fd.append('entry.1368762157',email);fd.append('entry.1683915494',['Tour: '+tour,'Preferred date(s): '+dates,'Guests: '+(guests||'-'),'Message: '+(message||'-')].join(' / '));var sbtn=form.querySelector('button[type=submit]');sbtn.disabled=true;sbtn.textContent='Sending...';fetch('https://docs.google.com/forms/d/e/1FAIpQLSd6ihgI1jRm71CEA3cTG5syQX4YQ-OpI-rSAkJ3hNMnctZUrQ/formResponse',{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:fd.toString()}).then(function(){form.reset();sbtn.textContent='Sent. I will reply within 24h.';}).catch(function(){sbtn.disabled=false;sbtn.textContent='Send failed. Please try again.';});
 });
 })();
 
