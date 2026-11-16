@@ -2,7 +2,7 @@
 
 Each weekly post needs 2-3 real stories from the owner's note posts (https://note.com/hide3399). This file tracks which stories are still unused so topics do not run out.
 
-Last checked note posts up to: 2026-11-08 (33 posts)
+Last checked note posts up to: 2026-11-15 (39 posts)
 
 ## How to use (every weekly run)
 1. Check note for posts published after the date above. Add each one below (key, date, one-line story, which theme it feeds) and update the date.
@@ -22,7 +22,7 @@ Last checked note posts up to: 2026-11-08 (33 posts)
 | 6 | What do you do on a farm morning in Kiyose? | n24add038346b, nfdcdad478d99, ne2d44eca60cc, nf6434813c2fc | ready |
 | 7 | One day in Hanno: fermentation, sake and a thousand-year-old poem | n3c0693a506e8, n6a30bec918ea | ready |
 | 8 | A samurai castle 30 minutes from Ikebukuro (Shakujii), and the man who destroyed it | nd9189ea1a030, n026817633472, n51b5df6e7aea | ready |
-| 9 | What to do in west Tokyo on a rainy day | n2f4ebb3aef9f (+ Spa Japon) | ready |
+| 9 | What to do in west Tokyo on a rainy day | n2f4ebb3aef9f (used: JA market, Marusu eggplant tempura label) (+ Spa Japon) | scheduled 2026-12-06 |
 | 10 | The Hanno hike from the anime, walked before anyone else | n777d12ecd00d | ready |
 | 11 | Is this the bathhouse from Spirited Away? (Edo-Tokyo Open Air Museum, Koganei) | nb703efb482c8 | ready |
 | 12 | Where locals eat near the Totoro forest (Tokorozawa tsukemen) | n33178750aa42 | ready |
@@ -30,8 +30,12 @@ Last checked note posts up to: 2026-11-08 (33 posts)
 | 14 | A night at Jingu Stadium: Japanese baseball for first-timers | n6cdfaa1b476e | ready (season: Apr-Sep) |
 | 15 | Why I show visitors the Tokyo that is not on the map | n877cc306e9e4 | ready |
 | 17 | Kiyose farm: what happens to the sweet potatoes after the harvest (two weeks of storing, then kanroni) | n085851e8ec68 | ready (season: Oct-Dec; can join #6) |
+| 18 | Kiyose farm in winter: daikon, and why you eat the leaves too (friend made ohitashi from the leaves; santousai next to it) | n8fa70071fd48 (2026-11-13) | ready (season: Nov-Jan; can join #6/#17) |
+| 19 | Heirinji and Suisoku-ken no Mori: how the colours turn, early November (lunchtime walk, Matsunaga Jian's Hida farmhouse) | n195fd014870b (2026-11-11) | ready (next autumn, or add to an Heirinji update) |
 | 16 | Around Lake Tama by bike | n6823e8e1e2c6 | low priority (blog/lake-tama-cycling-tokyo.html exists) |
 
 ## note posts not for the blog
+- n69ea2241effb, nd77efafd2c0b (side-business how-to series, 2026-11-09/12), n538aa4178a1f (Southeast Asia stay plan, personal, 2026-11-13)
+- nbf7d6a78f68d (Katsunuma trip, 2026-11-15): personal trip, not a tour area
 - n94d745c6bb88, na6a5567a19cb, n4eda60463721 (side-business how-to series)
 - n08f06b9a29a4 (Tokiwaso room visit, 2026-11-03): Tokiwaso already covered twice; keep for a later angle only, n711b709bf31c (personal)
