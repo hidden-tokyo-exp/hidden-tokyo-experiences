@@ -30,4 +30,4 @@ Last updated: 2026-11-17
 - Every 4 weeks, give the counts above in one line.
 
 ## Weekly Payhip check (added 2026-11-17)
-Every weekly run, read https://payhip.com/analytics (views, orders, referrers) in Chrome and update the Book 1 sales line above. The Payhip receipt email already links to the LP and the Substack subscribe page (set 2026-11-17).
+Every weekly run, read https://payhip.com/analytics (views, orders, referrers) in Chrome and update the Book 1 sales line above. The Payhip receipt email links only to the LP (set 2026-11-17; the LP is the base for everything, Substack link removed).
