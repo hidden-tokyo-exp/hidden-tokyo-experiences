@@ -28,3 +28,6 @@ Last updated: 2026-11-17
 ## When to tell the owner (push notification)
 - When Book 2 has 12 routes ready, say: "Book 2 の材料がそろいました。本にまとめますか。"
 - Every 4 weeks, give the counts above in one line.
+
+## Weekly Payhip check (added 2026-11-17)
+Every weekly run, read https://payhip.com/analytics (views, orders, referrers) in Chrome and update the Book 1 sales line above. The Payhip receipt email already links to the LP and the Substack subscribe page (set 2026-11-17).
