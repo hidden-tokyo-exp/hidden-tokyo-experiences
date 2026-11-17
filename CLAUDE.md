@@ -37,3 +37,10 @@ Model post: `blog/totoro-forest-day-trip-from-tokyo-without-a-car.html`. Match i
 
 ## Do not
 - The owner's real name, employer or day job. "licensed" (use "insured" if needed).
+
+## 6. Facts and links to check before publishing (added 2026-11-17)
+- Group size: write "up to 4 guests" everywhere (LP, Substack, Medium). Never "3 guests".
+- Links: every link is a clickable hyperlink (`<a href>` on the LP; link text + Cmd+K on Substack). No bare URLs in the body. On Substack, after writing, check that no paragraph contains `https://` without a link.
+- Ebook line (one small paragraph near the end, before the signature / "More on the site" block): "More stories from these walks are in my ebook, Hidden Tokyo: A Local Guide's Notebook ($4.99)." with the title linked to https://payhip.com/b/98LbU. Not needed on the post that is about the ebook itself.
+- Old URL: never write hkidachi3399. LP URL is https://hidden-tokyo-exp.github.io/hidden-tokyo-experiences/
+- Diary feel: include 1-2 first-person sentences of what the owner really saw or felt (only things the owner said or wrote). If none are found, flag "need one line from the owner" in the notification instead of inventing.
