@@ -1040,8 +1040,10 @@ if(elHeroBg){ elHeroBg.style.backgroundImage=pick.heroMedia; elHeroBg.style.back
 if(elHeroCta){ elHeroCta.textContent='Featured: '+pick.short; elHeroCta.href=pick.heroCta; }
 /* slideshow: start with this week's pick, then rotate through the other tours every 6s */
 if(elHeroBg && feats.length>1){
-  var start=feats.indexOf(pick), list=feats.slice(start).concat(feats.slice(0,start));
-  var reduce=window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+var HERO_OK=['zen','totoro','anime-hike','hanno','spa','edo-museum'];
+ var pool=HERO_OK.map(function(k){return feats.filter(function(f){return f.key===k;})[0];}).filter(Boolean);
+ var start=Math.max(0,pool.indexOf(pick)), list=pool.slice(start).concat(pool.slice(0,start));
+ elHeroBg.style.backgroundImage=list[0].heroMedia; elHeroBg.style.backgroundPosition=list[0].heroPos;var reduce=window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   elHeroBg.style.animation='none';
   var dots=document.createElement('div'); dots.className='hero-dots'; dots.setAttribute('aria-hidden','true');
   var slides=list.map(function(f,i){
