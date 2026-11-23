@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><defs>
+<clipPath id="c"><circle cx="200" cy="200" r="200"/></clipPath>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f4a38"/><stop offset="1" stop-color="#1c2e23"/></linearGradient>
+<linearGradient id="coat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3a55"/><stop offset="1" stop-color="#1b2538"/></linearGradient>
+<linearGradient id="knit" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a8d92"/><stop offset="1" stop-color="#6c6f74"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e9be97"/><stop offset=".6" stop-color="#f1cba7"/><stop offset="1" stop-color="#dcae88"/></linearGradient>
+</defs>
+<circle cx="300" cy="300" r="296" fill="#f8efdc" stroke="#1f2b47" stroke-width="8"/>
+<g transform="translate(38.00,20.00) scale(1.3100)">
+
+<g clip-path="url(#c)">
+<rect width="400" height="400" fill="url(#bg)"/>
+<!-- soft maple leaves and sun disc -->
+<circle cx="300" cy="118" r="46" fill="#c99a3a" opacity=".22"/>
+<g fill="none" stroke="#c99a3a" stroke-width="7" stroke-linecap="round" opacity=".28"><path d="M44 104 Q120 90 196 104"/><path d="M58 122 H182"/><path d="M78 104 V260"/><path d="M162 104 V260"/></g>
+<!-- coat -->
+<path d="M58 400 C62 322 110 292 166 282 L234 282 C290 292 338 322 342 400 Z" fill="url(#coat)"/>
+<!-- knit sweater V -->
+<path d="M160 284 L200 360 L240 284 Z" fill="url(#knit)"/>
+<!-- shirt collar -->
+<path d="M172 268 L200 304 L186 316 L162 284 Z" fill="#f7f5f0"/>
+<path d="M228 268 L200 304 L214 316 L238 284 Z" fill="#f7f5f0"/>
+<path d="M186 316 L200 304 L214 316 L200 330 Z" fill="#e7e3da"/>
+<!-- coat lapels -->
+<path d="M160 284 L196 372 L170 400 L132 300 Z" fill="#24314a"/>
+<path d="M240 284 L204 372 L230 400 L268 300 Z" fill="#24314a"/>
+<!-- neck -->
+<path d="M181 238 h38 v38 q-19 10 -38 0 z" fill="#dcae88"/>
+<!-- head (slimmer) -->
+<path d="M140 178 C140 128 168 104 200 104 C232 104 260 128 260 178 C260 222 236 258 200 260 C164 258 140 222 140 178 Z" fill="url(#skin)"/>
+<!-- ears -->
+<path d="M141 180 c-14 -4 -16 22 -2 28" fill="#e2b48f"/>
+<path d="M259 180 c14 -4 16 22 2 28" fill="#e2b48f"/>
+<!-- hair: short, lifted front, side part -->
+<path d="M138 176 C128 124 156 80 204 78 C224 76 240 82 252 92 C270 106 276 136 264 172 C260 152 252 140 242 134 C232 142 214 140 200 132 C186 128 170 132 160 128 C150 140 144 156 138 176 Z" fill="#141213"/>
+<path d="M160 126 C176 106 212 96 240 112" fill="none" stroke="#2c2828" stroke-width="3" stroke-linecap="round"/>
+<path d="M184 96 C204 86 230 88 250 104" fill="none" stroke="#2c2828" stroke-width="2.5" stroke-linecap="round"/>
+<!-- brows -->
+<path d="M157 168 q16 -7 32 -2" fill="none" stroke="#141213" stroke-width="5" stroke-linecap="round"/>
+<path d="M211 166 q16 -5 32 2" fill="none" stroke="#141213" stroke-width="5" stroke-linecap="round"/>
+<!-- eyes (minimal) -->
+<path d="M164 187 q10 -3 20 0" fill="none" stroke="#141213" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M216 187 q10 -3 20 0" fill="none" stroke="#141213" stroke-width="3.5" stroke-linecap="round"/>
+<!-- thin rectangular glasses -->
+<g fill="none" stroke="#1d1a19" stroke-width="3.2" stroke-linejoin="round">
+<rect x="151" y="172" width="44" height="27" rx="5"/>
+<rect x="205" y="172" width="44" height="27" rx="5"/>
+<path d="M195 182 q5 -4 10 0"/>
+<path d="M151 179 l-11 -2"/><path d="M249 179 l11 -2"/>
+</g>
+<!-- nose hint -->
+<path d="M201 196 q4 14 -3 20" fill="none" stroke="#c08f6c" stroke-width="3" stroke-linecap="round"/>
+<!-- confident slight smile -->
+<path d="M186 232 q15 7 30 -2" fill="none" stroke="#8f4f3c" stroke-width="4" stroke-linecap="round"/>
+<!-- jaw shadow -->
+<path d="M150 214 C162 246 182 258 200 260 C218 258 238 246 250 214 C238 238 220 250 200 252 C180 250 162 238 150 214 Z" fill="#c9966f" opacity=".35"/>
+</g>
+
+</g><circle cx="300" cy="282" r="262" fill="none" stroke="#b98a2e" stroke-width="11.8"/>
+<g transform="rotate(-4 300 470)">
+<path d="M150 428 L450 428 L450 512 L150 512 Z" fill="#b5432f"/>
+<path d="M150 428 L118 470 L150 512 Z" fill="#8f2f1f"/><path d="M450 428 L482 470 L450 512 Z" fill="#8f2f1f"/>
+<text x="300" y="494" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="76" letter-spacing="9" fill="#f8efdc">HTE</text>
+</g></svg>

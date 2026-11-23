@@ -1,26 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Hidden Tokyo Experiences logo">
-  <circle cx="300" cy="300" r="290" fill="#f8efdc" stroke="#b98a2e" stroke-width="6"/>
-  <circle cx="410" cy="132" r="24" fill="#d9a83c"/>
-  <circle cx="399" cy="124" r="22" fill="#f8efdc"/>
-  <circle cx="196" cy="126" r="3.5" fill="#d9a83c"/>
-  <circle cx="168" cy="158" r="2.5" fill="#d9a83c"/>
-  <circle cx="442" cy="188" r="2.5" fill="#d9a83c"/>
-  <path d="M195 160 Q300 138 405 160 L405 174 Q300 152 195 174 Z" fill="#b5432f"/>
-  <path d="M205 178 Q300 158 395 178 L395 196 Q300 176 205 196 Z" fill="#1f2b47"/>
-  <rect x="288" y="192" width="24" height="34" fill="#1f2b47"/>
-  <rect x="218" y="226" width="164" height="18" rx="3" fill="#1f2b47"/>
-  <path d="M232 194 L252 194 L256 330 L228 330 Z" fill="#1f2b47"/>
-  <path d="M348 194 L368 194 L372 330 L344 330 Z" fill="#1f2b47"/>
-  <rect x="220" y="330" width="44" height="12" rx="3" fill="#1f2b47"/>
-  <rect x="336" y="330" width="44" height="12" rx="3" fill="#1f2b47"/>
-  <line x1="300" y1="244" x2="300" y2="256" stroke="#b98a2e" stroke-width="3"/>
-  <rect x="286" y="252" width="28" height="8" rx="3" fill="#b98a2e"/>
-  <ellipse cx="300" cy="288" rx="30" ry="32" fill="#b5432f"/>
-  <path d="M288 258 Q283 288 288 318" fill="none" stroke="#8f2f1f" stroke-width="2"/>
-  <path d="M312 258 Q317 288 312 318" fill="none" stroke="#8f2f1f" stroke-width="2"/>
-  <rect x="286" y="316" width="28" height="8" rx="3" fill="#b98a2e"/>
-  <line x1="300" y1="324" x2="300" y2="340" stroke="#b98a2e" stroke-width="2.5"/>
-  <circle cx="300" cy="344" r="4" fill="#b98a2e"/>
-  <text x="300" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="94" letter-spacing="6" fill="#1f2b47">HTE</text>
-  <text x="300" y="496" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" letter-spacing="3" fill="#8a6a1f">HIDDEN TOKYO EXPERIENCES</text>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><defs>
+<clipPath id="c"><circle cx="200" cy="200" r="200"/></clipPath>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f4a38"/><stop offset="1" stop-color="#1c2e23"/></linearGradient>
+<linearGradient id="coat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3a55"/><stop offset="1" stop-color="#1b2538"/></linearGradient>
+<linearGradient id="knit" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a8d92"/><stop offset="1" stop-color="#6c6f74"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e9be97"/><stop offset=".6" stop-color="#f1cba7"/><stop offset="1" stop-color="#dcae88"/></linearGradient>
+</defs>
+<circle cx="300" cy="300" r="290" fill="#f8efdc" stroke="#1f2b47" stroke-width="7"/>
+<circle cx="300" cy="300" r="214" fill="none" stroke="#1f2b47" stroke-width="3"/>
+<circle cx="300" cy="300" r="222" fill="none" stroke="#1f2b47" stroke-width="1.5"/>
+<path id="top" d="M 52 300 A 248 248 0 0 1 548 300" fill="none"/>
+<path id="bot" d="M 36 300 A 264 264 0 0 0 564 300" fill="none"/>
+<text x="66.6" y="210.4" text-anchor="middle" transform="rotate(-69.00 66.6 210.4)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">H</text><text x="77.2" y="186.5" text-anchor="middle" transform="rotate(-63.00 77.2 186.5)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">I</text><text x="90.3" y="163.8" text-anchor="middle" transform="rotate(-57.00 90.3 163.8)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">D</text><text x="105.7" y="142.7" text-anchor="middle" transform="rotate(-51.00 105.7 142.7)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">D</text><text x="123.2" y="123.2" text-anchor="middle" transform="rotate(-45.00 123.2 123.2)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">E</text><text x="142.7" y="105.7" text-anchor="middle" transform="rotate(-39.00 142.7 105.7)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">N</text><text x="186.5" y="77.2" text-anchor="middle" transform="rotate(-27.00 186.5 77.2)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">T</text><text x="210.4" y="66.6" text-anchor="middle" transform="rotate(-21.00 210.4 66.6)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">O</text><text x="235.3" y="58.5" text-anchor="middle" transform="rotate(-15.00 235.3 58.5)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">K</text><text x="260.9" y="53.1" text-anchor="middle" transform="rotate(-9.00 260.9 53.1)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">Y</text><text x="286.9" y="50.3" text-anchor="middle" transform="rotate(-3.00 286.9 50.3)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">O</text><text x="339.1" y="53.1" text-anchor="middle" transform="rotate(9.00 339.1 53.1)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">E</text><text x="364.7" y="58.5" text-anchor="middle" transform="rotate(15.00 364.7 58.5)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">X</text><text x="389.6" y="66.6" text-anchor="middle" transform="rotate(21.00 389.6 66.6)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">P</text><text x="413.5" y="77.2" text-anchor="middle" transform="rotate(27.00 413.5 77.2)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">E</text><text x="436.2" y="90.3" text-anchor="middle" transform="rotate(33.00 436.2 90.3)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">R</text><text x="457.3" y="105.7" text-anchor="middle" transform="rotate(39.00 457.3 105.7)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">I</text><text x="476.8" y="123.2" text-anchor="middle" transform="rotate(45.00 476.8 123.2)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">E</text><text x="494.3" y="142.7" text-anchor="middle" transform="rotate(51.00 494.3 142.7)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">N</text><text x="509.7" y="163.8" text-anchor="middle" transform="rotate(57.00 509.7 163.8)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">C</text><text x="522.8" y="186.5" text-anchor="middle" transform="rotate(63.00 522.8 186.5)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">E</text><text x="533.4" y="210.4" text-anchor="middle" transform="rotate(69.00 533.4 210.4)" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="37" fill="#1f2b47">S</text>
+<text x="60.1" y="414.9" text-anchor="middle" transform="rotate(64.40 60.1 414.9)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">W</text><text x="72.5" y="437.8" text-anchor="middle" transform="rotate(58.80 72.5 437.8)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">E</text><text x="87.0" y="459.3" text-anchor="middle" transform="rotate(53.20 87.0 459.3)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">S</text><text x="103.6" y="479.4" text-anchor="middle" transform="rotate(47.60 103.6 479.4)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">T</text><text x="142.2" y="514.1" text-anchor="middle" transform="rotate(36.40 142.2 514.1)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">T</text><text x="163.8" y="528.5" text-anchor="middle" transform="rotate(30.80 163.8 528.5)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">O</text><text x="186.7" y="540.7" text-anchor="middle" transform="rotate(25.20 186.7 540.7)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">K</text><text x="210.8" y="550.6" text-anchor="middle" transform="rotate(19.60 210.8 550.6)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">Y</text><text x="235.6" y="558.1" text-anchor="middle" transform="rotate(14.00 235.6 558.1)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">O</text><text x="287.0" y="565.7" text-anchor="middle" transform="rotate(2.80 287.0 565.7)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">·</text><text x="338.9" y="563.1" text-anchor="middle" transform="rotate(-8.40 338.9 563.1)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">L</text><text x="364.4" y="558.1" text-anchor="middle" transform="rotate(-14.00 364.4 558.1)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">O</text><text x="389.2" y="550.6" text-anchor="middle" transform="rotate(-19.60 389.2 550.6)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">C</text><text x="413.3" y="540.7" text-anchor="middle" transform="rotate(-25.20 413.3 540.7)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">A</text><text x="436.2" y="528.5" text-anchor="middle" transform="rotate(-30.80 436.2 528.5)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">L</text><text x="478.0" y="497.7" text-anchor="middle" transform="rotate(-42.00 478.0 497.7)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">G</text><text x="496.4" y="479.4" text-anchor="middle" transform="rotate(-47.60 496.4 479.4)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">U</text><text x="513.0" y="459.3" text-anchor="middle" transform="rotate(-53.20 513.0 459.3)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">I</text><text x="527.5" y="437.8" text-anchor="middle" transform="rotate(-58.80 527.5 437.8)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">D</text><text x="539.9" y="414.9" text-anchor="middle" transform="rotate(-64.40 539.9 414.9)" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#b5432f">E</text>
+<circle cx="46" cy="300" r="6" fill="#b5432f"/><circle cx="554" cy="300" r="6" fill="#b5432f"/>
+<g transform="translate(116.00,108.00) scale(0.9200)">
+
+<g clip-path="url(#c)">
+<rect width="400" height="400" fill="url(#bg)"/>
+<!-- soft maple leaves and sun disc -->
+<circle cx="300" cy="118" r="46" fill="#c99a3a" opacity=".22"/>
+<g fill="none" stroke="#c99a3a" stroke-width="7" stroke-linecap="round" opacity=".28"><path d="M44 104 Q120 90 196 104"/><path d="M58 122 H182"/><path d="M78 104 V260"/><path d="M162 104 V260"/></g>
+<!-- coat -->
+<path d="M58 400 C62 322 110 292 166 282 L234 282 C290 292 338 322 342 400 Z" fill="url(#coat)"/>
+<!-- knit sweater V -->
+<path d="M160 284 L200 360 L240 284 Z" fill="url(#knit)"/>
+<!-- shirt collar -->
+<path d="M172 268 L200 304 L186 316 L162 284 Z" fill="#f7f5f0"/>
+<path d="M228 268 L200 304 L214 316 L238 284 Z" fill="#f7f5f0"/>
+<path d="M186 316 L200 304 L214 316 L200 330 Z" fill="#e7e3da"/>
+<!-- coat lapels -->
+<path d="M160 284 L196 372 L170 400 L132 300 Z" fill="#24314a"/>
+<path d="M240 284 L204 372 L230 400 L268 300 Z" fill="#24314a"/>
+<!-- neck -->
+<path d="M181 238 h38 v38 q-19 10 -38 0 z" fill="#dcae88"/>
+<!-- head (slimmer) -->
+<path d="M140 178 C140 128 168 104 200 104 C232 104 260 128 260 178 C260 222 236 258 200 260 C164 258 140 222 140 178 Z" fill="url(#skin)"/>
+<!-- ears -->
+<path d="M141 180 c-14 -4 -16 22 -2 28" fill="#e2b48f"/>
+<path d="M259 180 c14 -4 16 22 2 28" fill="#e2b48f"/>
+<!-- hair: short, lifted front, side part -->
+<path d="M138 176 C128 124 156 80 204 78 C224 76 240 82 252 92 C270 106 276 136 264 172 C260 152 252 140 242 134 C232 142 214 140 200 132 C186 128 170 132 160 128 C150 140 144 156 138 176 Z" fill="#141213"/>
+<path d="M160 126 C176 106 212 96 240 112" fill="none" stroke="#2c2828" stroke-width="3" stroke-linecap="round"/>
+<path d="M184 96 C204 86 230 88 250 104" fill="none" stroke="#2c2828" stroke-width="2.5" stroke-linecap="round"/>
+<!-- brows -->
+<path d="M157 168 q16 -7 32 -2" fill="none" stroke="#141213" stroke-width="5" stroke-linecap="round"/>
+<path d="M211 166 q16 -5 32 2" fill="none" stroke="#141213" stroke-width="5" stroke-linecap="round"/>
+<!-- eyes (minimal) -->
+<path d="M164 187 q10 -3 20 0" fill="none" stroke="#141213" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M216 187 q10 -3 20 0" fill="none" stroke="#141213" stroke-width="3.5" stroke-linecap="round"/>
+<!-- thin rectangular glasses -->
+<g fill="none" stroke="#1d1a19" stroke-width="3.2" stroke-linejoin="round">
+<rect x="151" y="172" width="44" height="27" rx="5"/>
+<rect x="205" y="172" width="44" height="27" rx="5"/>
+<path d="M195 182 q5 -4 10 0"/>
+<path d="M151 179 l-11 -2"/><path d="M249 179 l11 -2"/>
+</g>
+<!-- nose hint -->
+<path d="M201 196 q4 14 -3 20" fill="none" stroke="#c08f6c" stroke-width="3" stroke-linecap="round"/>
+<!-- confident slight smile -->
+<path d="M186 232 q15 7 30 -2" fill="none" stroke="#8f4f3c" stroke-width="4" stroke-linecap="round"/>
+<!-- jaw shadow -->
+<path d="M150 214 C162 246 182 258 200 260 C218 258 238 246 250 214 C238 238 220 250 200 252 C180 250 162 238 150 214 Z" fill="#c9966f" opacity=".35"/>
+</g>
+
+</g><circle cx="300" cy="292" r="184" fill="none" stroke="#b98a2e" stroke-width="8.3"/>
+<g transform="rotate(-4 300 440)">
+<path d="M170 410 L430 410 L430 478 L170 478 Z" fill="#b5432f"/>
+<path d="M170 410 L140 444 L170 478 Z" fill="#8f2f1f"/><path d="M430 410 L460 444 L430 478 Z" fill="#8f2f1f"/>
+<text x="300" y="466" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="62" letter-spacing="8" fill="#f8efdc">HTE</text>
+</g>
 </svg>
