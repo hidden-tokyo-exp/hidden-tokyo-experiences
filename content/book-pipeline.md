@@ -19,11 +19,11 @@ PROPOSAL. The owner has agreed to the direction (collect now, decide later). Do 
 | Book 3 | Seasonal guide: what to do in west Tokyo in each month | monthly guides (September to December exist) + seasonal posts | 12 monthly guides |
 
 ## Counts (update every weekly run)
-Last updated: 2026-11-17
-- Blog posts published: 23 (excluding the ebook announcement). Scheduled in `_scheduled/`: 3.
+Last updated: 2026-11-23
+- Blog posts published: 24 (excluding the ebook announcement). Scheduled in `_scheduled/`: 3 (to 2026-12-13).
 - Monthly guides done: September, October, November, December (4 of 12).
-- Routes with a finished post: Totoro forest, Tokiwaso, Akihabara/Toshima, Hanno (2 posts), Shakujii, Heirinji, Kiyose farm, Spa Japon, Lake Tama cycling, Musashino udon (10 of 12 for Book 2, but each needs an unpublished story and a timetable).
-- Book 1 sales (Payhip, 2026-11-17): 6 page views, 0 orders since launch. Too small to judge. Decision point at 60 days (2027-01-02), see claude/b-track-book1-payhip.md section 4.
+- Routes with a finished post: Totoro forest, Tokiwaso, Akihabara/Toshima, Hanno (2 posts + one-day post scheduled 12-13), Shakujii, Heirinji, Kiyose farm, Spa Japon, Lake Tama cycling, Musashino udon (10 of 12 for Book 2, but each needs an unpublished story and a timetable).
+- Book 1 sales (Payhip, 2026-11-17; 2026-11-23 check not possible: Chrome has no read permission on payhip.com): 6 page views, 0 orders since launch. Too small to judge. Decision point at 60 days (2027-01-02), see claude/b-track-book1-payhip.md section 4.
 
 ## When to tell the owner (push notification)
 - When Book 2 has 12 routes ready, say: "Book 2 の材料がそろいました。本にまとめますか。"

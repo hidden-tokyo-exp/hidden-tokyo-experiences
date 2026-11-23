@@ -2,7 +2,7 @@
 
 Each weekly post needs 2-3 real stories from the owner's note posts (https://note.com/hide3399). This file tracks which stories are still unused so topics do not run out.
 
-Last checked note posts up to: 2026-11-15 (39 posts)
+Last checked note posts up to: 2026-11-22 (45 posts)
 
 ## How to use (every weekly run)
 1. Check note for posts published after the date above. Add each one below (key, date, one-line story, which theme it feeds) and update the date.
@@ -20,7 +20,7 @@ Last checked note posts up to: 2026-11-15 (39 posts)
 | 4 | Heirinji in autumn | ne8b5fbdbce94 | scheduled 2026-11-22 (needs rewrite to new rules) |
 | 5 | Tokyo bathhouse etiquette for first-timers (Spa Japon) | n7380b487cb25 (used), nab3c3a5a4cbe (used: Minamisawa/Ochiai/Chikurin scouting walk) | scheduled 2026-11-29 |
 | 6 | What do you do on a farm morning in Kiyose? | n24add038346b, nfdcdad478d99, ne2d44eca60cc, nf6434813c2fc | ready |
-| 7 | One day in Hanno: fermentation, sake and a thousand-year-old poem | n3c0693a506e8, n6a30bec918ea | ready |
+| 7 | One day in Hanno: fermentation, sake and a thousand-year-old poem | n3c0693a506e8 (used), n6a30bec918ea (used) | scheduled 2026-12-13 |
 | 8 | A samurai castle 30 minutes from Ikebukuro (Shakujii), and the man who destroyed it | nd9189ea1a030, n026817633472, n51b5df6e7aea | ready |
 | 9 | What to do in west Tokyo on a rainy day | n2f4ebb3aef9f (used: JA market, Marusu eggplant tempura label) (+ Spa Japon) | scheduled 2026-12-06 |
 | 10 | The Hanno hike from the anime, walked before anyone else | n777d12ecd00d | ready |
@@ -32,9 +32,14 @@ Last checked note posts up to: 2026-11-15 (39 posts)
 | 17 | Kiyose farm: what happens to the sweet potatoes after the harvest (two weeks of storing, then kanroni) | n085851e8ec68 | ready (season: Oct-Dec; can join #6) |
 | 18 | Kiyose farm in winter: daikon, and why you eat the leaves too (friend made ohitashi from the leaves; santousai next to it) | n8fa70071fd48 (2026-11-13) | ready (season: Nov-Jan; can join #6/#17) |
 | 19 | Heirinji and Suisoku-ken no Mori: how the colours turn, early November (lunchtime walk, Matsunaga Jian's Hida farmhouse) | n195fd014870b (2026-11-11) | ready (next autumn, or add to an Heirinji update) |
+| 20 | A Polish Dragon Ball fan in short sleeves: a manga morning in Oizumi | n9e1c851d58fe (2026-11-20) | ready (manga tour; avoid repeating Tokiwaso/Toei stories) |
+| 21 | Mt. Fuji from a station-building rooftop in Oizumi-gakuen | n46e4cbdf3091 (2026-11-21) | ready (season: Dec-Feb clear days; can join #20) |
+| 22 | A Saturday-morning trip to a Tokorozawa noodle factory | neb752aa50c09 (2026-11-21) | ready (can join #12 Tokorozawa tsukemen) |
+| 23 | Making soba by hand in Kiyose (four servings to take home) | n2b8c03194270 (2026-11-22) | ready (can join #6/#18 Kiyose) |
 | 16 | Around Lake Tama by bike | n6823e8e1e2c6 | low priority (blog/lake-tama-cycling-tokyo.html exists) |
 
 ## note posts not for the blog
+- n32ab595c7fe0, nca1956de28f4 (side-business how-to series, 2026-11-21)
 - n69ea2241effb, nd77efafd2c0b (side-business how-to series, 2026-11-09/12), n538aa4178a1f (Southeast Asia stay plan, personal, 2026-11-13)
 - nbf7d6a78f68d (Katsunuma trip, 2026-11-15): personal trip, not a tour area
 - n94d745c6bb88, na6a5567a19cb, n4eda60463721 (side-business how-to series)
